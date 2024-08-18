@@ -1,3 +1,23 @@
+"""
+
+This module can be used with Django or as a standalone tool.
+It helps you get started quickly by automating repetitive tasks.
+However, be aware that this module primarily opens new files or
+edits existing ones, translating your Python code into HTML.
+Characters that cannot be written, such as Arabic letters or emojis,
+will break your code. Therefore, avoid using such characters unless
+you can handle the resulting issues.
+
+Feel free to modify this project as needed.
+
+You can use the create function defined below or directly use write_html
+if you have different argument names.it
+
+Note: The create function has a limitation: it requires variables to be
+defined within a single line. Otherwise, the variable is ignored, and
+you need to pass it manually to the function.
+"""
+
 from .generator import write_html
 
 
